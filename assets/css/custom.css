@@ -1,0 +1,96 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(255, 168, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 168, 0, 0.6);
+  outline: 0 none;
+}
+
+.btn-primary{
+	background-color: rgba(255, 168, 0, 0.8);
+    border-color: rgba(255, 168, 0, 0.3);
+}
+
+.btn-primary:hover{
+	background-color: rgba(255, 168, 0, 1); 
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+   background-color: rgba(255, 168, 0, 1); 
+    border-color: rgba(255, 168, 0, 1);
+}
+
+.container .inner_container{
+	width:50%;
+	margin:2% auto;
+}
+
+.cookingingredients{
+	width:100%;
+}
+
+.cookingingredients ul{
+	white-space:nowrap;
+	overflow-x: auto;
+}
+.cookingingredients li{
+	list-style:none;
+	margin: 1% 0;
+	display: inline;
+}
+
+.cookingarea{
+	margin: 3% 0;
+	position: relative;
+}
+
+.callout{
+	position:absolute;
+	top: 0;
+	right: -10%;
+	background: url('../images/funny-callout.png') center center no-repeat;
+	background-size:98%;
+	width:35%;
+	height:35%;
+	padding:5%;
+	z-index:10;
+}
+
+.pot_cost{
+	margin: 6% 5% 5% 5%;
+	font-size:2em;
+	color:#CCC;
+}
+
+div.admin_ingredients{
+	display:flex;
+	flex-flow: row wrap;
+	margin: 1% 0;
+}
+
+div.admin_ingredients > div{
+	max-width:25%;
+	min-height:20%;
+	margin: 2%;
+}
+
+div.content{
+	padding:1%;
+}

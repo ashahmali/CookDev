@@ -1,0 +1,6 @@
+<html>
+<body>
+	<h1>Reset Password for admin@admin.com</h1>
+	<p>Please click this link to <a href="http://cookdev.dev/users/reset_password/43c87126d7030f7dd093a14c18095ff90baf9dc9">Reset Your Password</a>.</p>
+</body>
+</html>
