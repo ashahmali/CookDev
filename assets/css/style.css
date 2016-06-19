@@ -4,6 +4,13 @@ h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 
 ul, ol {margin: 0; padding:0;}
+ul.order_details{
+	margin:1em;
+}
+ul.order_details > li{
+	margin:.5em;
+	
+}
 
 p {margin: 0;}
 
@@ -2782,21 +2789,6 @@ top: 81%;
 }
 
 
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-=======
-
 @media (max-width: 568px){
 
 .header {
@@ -2893,7 +2885,7 @@ left: 39%;
 
 }
 
->>>>>>> e889060d7f997bb8b64bee9749b69ff8336a4e22
+
 
 @media (max-width: 480px){
 
@@ -2902,17 +2894,6 @@ left: 39%;
 margin-top:.6em;
 
 }
-
-<<<<<<< HEAD
-
-
-
-=======
-
-@media (max-width: 360px){
-
->>>>>>> e889060d7f997bb8b64bee9749b69ff8336a4e22
-
 .top-menu {
 
 width: 10%;
@@ -2937,7 +2918,6 @@ text-align: center;
 
 }
 
-<<<<<<< HEAD
 
 .summary_block{
 
@@ -2978,20 +2958,20 @@ margin:2% auto;
 
 
 .footer1 {
-
-padding: 5%;
-
+	padding: 5%;
 }
 
+.ftr-grid3 {
+    margin: 2em 0;
+}
+.ftr-grid3 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
-
-
-
-=======
-
-
-
-
+.ftr-grid3 form input[type="text"] {
+    margin-top: 1em;
+}
 
 .head-logo {
 
@@ -3006,10 +2986,6 @@ font-size:1em;
 margin-bottom:1em;
 
 }
-
-
-
->>>>>>> e889060d7f997bb8b64bee9749b69ff8336a4e22
 
 .banner {
 

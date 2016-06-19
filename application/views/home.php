@@ -27,7 +27,7 @@
 	  </div>
   </div><br /><br />
  <div class="row">
- 	<div class="col-xs-3 soups">
+ 	<div class="col-md-3 soups">
  		<!-- <?= img(array('src'=>'assets/images/egusisoupsmall.png', 'class'=>'img-rounded', 'title'=>'Ogbono Soup', 'data-large'=>'assets/images/egusisouplarge.png')); ?> -->
  		<?php
  	 		if(!empty($soups)){
@@ -58,11 +58,11 @@
  	 		?>
  		
  	</div>
- 	 <div class="cookingarea text-center col-xs-6">
+ 	 <div class="cookingarea text-center col-md-6">
 	  	<div><?= img(array('src'=>'assets/images/emptysouppot.gif', 'class'=>'img-responsive')); ?></div>
 	  	<span class="callout" style="display:none">oya select your menu</span>
 	  </div>
-	  <div class="col-xs-3 summary_block">
+	  <div class="col-md-3 summary_block">
 	  	<h3>Summary</h3>
 	  	<ul class="order_details"></ul>
 	  	<button type="button" class="btn btn-primary btn-lg cookaway" style="display:none">Cook Away</button>

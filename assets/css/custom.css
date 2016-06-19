@@ -94,3 +94,16 @@ div.admin_ingredients > div{
 div.content{
 	padding:1%;
 }
+
+
+@media (max-width: 480px){
+	.container .inner_container {
+	    width: 80%;
+	}
+	
+	.cookingarea{
+		width:90%;
+		margin: 3% auto;
+	}
+
+}

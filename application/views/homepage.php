@@ -53,7 +53,7 @@
 			<div class="banner banner2">
 				<div class="header row">
 					<div class="col-md-4 head-logo">
-						<h1><a href="<?= base_url(); ?>"><img src="assets/images/engry.png" alt="" />ENERGY</a></h1>
+						<h1><a href="<?= base_url(); ?>"><img src="<?= base_url('assets/images/engry.png'); ?>" alt="" />ENERGY</a></h1>
 					</div>
 					<div class="col-md-4 pot">
 						<p class="text-center"><img src="<?= base_url('assets/images/brownPot.png'); ?>" width=64 height=64 alt="" /><span class="pot_cost">&pound;<span class="summary_cost"> 0.00</span></span>
@@ -93,7 +93,7 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="top-menu">
-					<span class="menu"><img src="assets/images/nav-icon.png"></span>
+					<span class="menu"><img src="<?= base_url('assets/images/nav-icon.png'); ?>"></span>
 					<ul>
 						<li class="active">
 							<a href="<?= base_url(); ?>">Home</a>
@@ -137,7 +137,7 @@
 				<div class="ftr1-grids">
 					<div class="col-md-4 ftr-grid1">
 						<div class="head-logo logo">
-							<h1><a href="index.html"><img src="images/engry.png" alt=""/>ENERGY</a></h1>
+							<h1><a href="index.html"><img src="<?= base_url('images/engry.png'); ?>" alt=""/>ENERGY</a></h1>
 						</div>
 						<p>
 							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
