@@ -1,7 +1,4 @@
-
-h4, h5, h6,
-
-h1, h2, h3 {margin: 0;}
+h4, h5, h6, h1, h2, h3 {margin: 0;}
 
 ul, ol {margin: 0; padding:0;}
 ul.order_details{
@@ -191,6 +188,14 @@ margin: 0 4px;
 display:inline-block;
 
 }
+/* register */
+.bg-info, .bg-danger, .bg-warning {
+    width: 50%;
+    margin: 1% auto;
+    text-align: center;
+    padding: 1%;
+}
+
 
 a i.facebook {
 
@@ -1294,7 +1299,7 @@ font-weight:400;
 
 background:#333639;
 
-padding:4% 0;
+padding:4% 2%;
 
 }
 

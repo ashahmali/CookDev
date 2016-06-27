@@ -2,7 +2,7 @@
 <h1 class="text-center">Register User</h1><br />
  <?php echo validation_errors() ? '<div class="bg-danger text-center">' . validation_errors() . '</div>' : ''; ?>
  <?php echo !empty($error) ? '<div class="bg-danger text-center">' . $error . '</div>' : '';?>
- <div id="bg-info"><?php echo isset($message) ? $message : ""; ?></div>
+ <?php echo isset($message) ? '<div class="bg-info">'.$message.'</div>' : ""; ?>
 
 <?php echo form_open("users/register"); ?>
 <div class="row">

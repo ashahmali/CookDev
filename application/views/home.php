@@ -40,10 +40,10 @@
 					$img .= " data-id=\"".$ing->id."\"";
 					$img .= " title=\" ".$ing->name."\"";
 					$img .= " data-large = ".site_url("assets/images/soups/")."/".$ing->id.'.png';
-					$img .= " style=\"width:70%\"";
+					$img .= " style=\"width:35%\"";
 					//$img .= " data-name = \"".$ing->name."\">";
 					
-					$img .= " />";
+					$img .= " /><br>";
 					//$items .= "<p>Friendly Name: ".$ing->friendly_name."</p>";
 					//$items .= "<p>Name: ".$ing->name."</p>";
 					//$items .= "<p>Price: ".$ing->price."</p>";
